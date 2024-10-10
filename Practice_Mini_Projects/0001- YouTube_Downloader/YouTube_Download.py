@@ -22,4 +22,4 @@ def download_video(url, download_path):
         ydl.download([url])
 
 # Call the download function
-download_video('https://www.youtube.com/watch?v=dQw4w9WgXcQ', r'C:\Users\ferdg\OneDrive\Desktop\PYTHON_PROJECTS\Project_0001 - YouTube Video Downloader')
+download_video('https://www.youtube.com/watch?v=dQw4w9WgXcQ', r'paste your folder here')    #Paste your YouTube URL and path here
