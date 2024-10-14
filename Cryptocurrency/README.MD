@@ -19,13 +19,16 @@ A cryptocurrency screener that connects to your exchange account (API), filters 
 -  The output will be saved in the specified directory as a CSV file.
 
 4. [Example](#example)
-| Symbols	   | Bid	     | Ask	     | Spread %	| Average Candle Length % |
----------------------------------------------------------------------------
-| DORA/USDT	 | 0.06623	 | 0.06655	 | 0.48%	  | 14.02%                  |
-| DEGEN/USDT | 0.010043	 | 0.01007	 | 0.27%	  | 12.83%                  |
-| TURBO/USDT | 0.0087297 | 0.0087368 | 0.08%	  | 9.98%                   |
-| SLERF/USDT | 0.239	   | 0.2392	   | 0.08%	  | 9.95%                   |
-| DIA/USDT	 | 0.8168	   | 0.8187	   | 0.23%	  | 9.79%                   |
+## Example
+
+| Symbols     | Bid        | Ask        | Spread % | Average Candle Length % |
+|-------------|------------|------------|----------|-------------------------|
+| DORA/USDT   | 0.06623    | 0.06655    | 0.48%    | 14.02%                  |
+| DEGEN/USDT  | 0.010043   | 0.01007    | 0.27%    | 12.83%                  |
+| TURBO/USDT  | 0.0087297  | 0.0087368  | 0.08%    | 9.98%                   |
+| SLERF/USDT  | 0.239      | 0.2392     | 0.08%    | 9.95%                   |
+| DIA/USDT    | 0.8168     | 0.8187     | 0.23%    | 9.79%                   |
+
 
 
 5. [API Keys](#api-keys)
