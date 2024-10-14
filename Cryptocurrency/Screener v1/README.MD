@@ -29,7 +29,7 @@ A cryptocurrency screener that connects to your exchange account (API), filters 
 | DIA/USDT    | 0.8168     | 0.8187     | 0.23%    | 9.79%                   |
 
 5. [API Keys](#api-keys)
-exchange = ccxt.okx({   # Using okx exchange. (e.g. for binance: "ccxt.binance")
+##exchange = ccxt.okx({   # Using okx exchange. (e.g. for binance: "ccxt.binance")
     "apiKey": "paste API Key here",   # Get your API Key from your exchange account
     "secret": "paste API Secret Key here",   # Get your Secret Key from your exchange account
     "password": "Paste Pass Phrase here",   # okx requires pass phrase. Delete this line if not required by your selected exchange
