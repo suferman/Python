@@ -9,8 +9,12 @@ A cryptocurrency screener that connects to your exchange account (API), filters 
 - Calculates the average candle length as a percentage of the low price (Volatility).
 - Exports the data to a CSV file for further analysis.
 
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Example](#example)
-6. [API Keys](#api-keys)
-7. [File Output](#file-output)
+2. [Installation](#installation)
+- Install required packages:
+  pandas
+  ccxt
+
+3. [Usage](#usage)
+4. [Example](#example)
+5. [API Keys](#api-keys)
+6. [File Output](#file-output)
