@@ -20,7 +20,6 @@ A cryptocurrency screener that connects to your exchange account (API), filters 
 
 4. [Example](#example)
 ## Example
-
 | Symbols     | Bid        | Ask        | Spread % | Average Candle Length % |
 |-------------|------------|------------|----------|-------------------------|
 | DORA/USDT   | 0.06623    | 0.06655    | 0.48%    | 14.02%                  |
@@ -29,7 +28,20 @@ A cryptocurrency screener that connects to your exchange account (API), filters 
 | SLERF/USDT  | 0.239      | 0.2392     | 0.08%    | 9.95%                   |
 | DIA/USDT    | 0.8168     | 0.8187     | 0.23%    | 9.79%                   |
 
-
-
 5. [API Keys](#api-keys)
+exchange = ccxt.okx({   # Using okx exchange. (e.g. for binance: "ccxt.binance")
+    "apiKey": "paste API Key here",   # Get your API Key from your exchange account
+    "secret": "paste API Secret Key here",   # Get your Secret Key from your exchange account
+    "password": "Paste Pass Phrase here",   # okx requires pass phrase. Delete this line if not required by your selected exchange
+    "enableRateLimit": True,
+})
+
 6. [File Output](#file-output)
+-  Symbols: All spot-traded USDT pairs  (e.g., BTC/USDT).
+-  High Prices: The high prices from the OHLCV data for the last 10 days.
+-  Low Prices: The low prices from the OHLCV data for the last 10 days.
+-  Bid: The current bid price.
+-  Ask: The current ask price.
+-  Spread %: The percentage difference between the bid and ask prices.
+-  Average Candle Size %: The average candle size as a percentage over the last 10 days.
+-  The file will be saved as: USDT_Spot.csv
