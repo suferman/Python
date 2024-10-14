@@ -11,10 +11,12 @@ A cryptocurrency screener that connects to your exchange account (API), filters 
 
 2. [Installation](#installation)
 - Install required packages:
-  pandas
-  ccxt
+  pandas, ccxt
+- Connect to your API keys (details in [API Keys](#api-keys) section).
 
 3. [Usage](#usage)
+-  
+
 4. [Example](#example)
 5. [API Keys](#api-keys)
 6. [File Output](#file-output)
